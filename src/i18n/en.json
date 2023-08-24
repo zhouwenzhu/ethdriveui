@@ -1,0 +1,48 @@
+{
+  "Top-up": "Top-up",
+  "Upload": "Upload",
+  "including":"You can pay in any token including MEMO、APTOS and more, to purchase file storage space for files storage.",
+  "Home": {
+    "Document": " Document name",
+    "File_Upload": "File Upload Time",
+    "File_Upload_Address": "File Upload Address",
+    "Storage_Period": "Storage Period",
+    "Storage_Prize": "Storage Prize",
+    "Size_of_File": "Size of File",
+    "File_Download": "File Download",
+    "CID":"CID",
+    "No_Data":"No Data",
+    "No_File_Selected":"No File Selected",
+    "Upload ":"Upload",
+    "Download":"Download",
+    "Storage_Balance": "Storage Balance:",
+    "Select_the_File": "Select the File",
+    "Significant_Material":"Significant Material",
+    "Size_of_Upload_File": "Size of Upload File",
+    "Estimated_Cost_of_Uploading_File":"Estimated Cost of Uploading File:",
+    "No_data":"No data",
+    "Please_top-up":"Please top-up",
+    "Click_to_redirect":"Click to redirect",
+    "Size_of_upload:":"Size of upload file:",
+    "Estimated_cost_of_uploading":"Estimated cost of uploading files:",
+    "Insufficient_balance":"Insufficient balance, please top up",
+    "Start_upload":"Start upload.",
+    "Upload_Files":"Upload Files.",
+    "upload_successfully":"upload successfully.",
+    "upload_failed":"upload failed.",
+    "Close":"Close"
+  },
+  "pay":{
+    "Minimum_storage_space":"Minimum storage space: 1G",
+    "Balance_to_top-up":"Balance to top-up:",
+    "Storage_space":"Storage space",
+    "Estimated_cost":"Estimated cost(MEMO)",
+    "Invalid_amount":"Invalid amount",
+    "The_minimum":"The minimum amount should be greater than 0.01",
+    "Insufficient_balance":"Insufficient balance",
+    "Please_enter":"Please enter the correct storage space with at least 1G.",
+    "Customize_your":"Customize your storage size",
+    "Estimated_Cost":"Estimated cost"
+  }
+}
+

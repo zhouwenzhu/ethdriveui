@@ -1,0 +1,52 @@
+
+@charset "utf-8";
+@font-face {
+    font-family: 'Muli';
+    src: url('../../assets/iconfont/ifont.ttf');
+    font-weight: 600;
+}
+.HeaderPage {
+  width: 100%;
+  // background-color: #F7F8FA;
+  background-color: #F7F8FA;
+  margin-bottom: 20px;
+
+  .head {
+    padding-bottom: 5px;
+  .container {
+    box-shadow: 0 0 10px 0.1px #e8e8e8;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 0px 0px 5px;
+    justify-content: space-between;
+    .head-left{
+      display: flex;
+      align-items: center;
+      div {
+        font-family: 'Muli';
+        font-size: 40px;
+        color: #fff;
+    }
+    ul{
+      display: flex;
+      align-items: center;
+      li{
+        font-size: 18px;
+        cursor: pointer;
+        margin: 0px 30px;
+        color: #86909c;
+        &:hover{
+          color: #9EA6B0;
+        }
+      }
+      margin: 0px 0px 0px 30px;
+    }
+    } 
+    .head-right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+}
+}
+}

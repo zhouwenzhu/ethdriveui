@@ -1,0 +1,131 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Muli';
+    src: url('../../../../assets/iconfont/ifont.ttf');
+    font-weight: 600;
+}
+.ant-modal-close-x{
+  display: none !important;
+}
+.WalletContent_address{
+  top: 15px;
+  right: 15px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+
+  color: #000;
+  .off{
+    background-color: #E4EAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    .iconfont{
+      font-size: 20px;
+    }
+  }
+}
+.WalletModification{
+  padding: 40px 10px 30px;
+  
+  .WalletContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-size: 30px;
+      font-family:'Muli' ;
+      margin-bottom: 10px;
+    }
+  }
+// #copy{
+//   display: none;
+// }
+  .WalletContent_wallet{
+    div{
+      display: flex;
+      justify-content: space-between;
+      background-color: #F7F8FA;
+      align-items: center;
+      padding: 10px 12px;
+      margin: 10px 0px;
+      p{
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      a{
+        font-size: 18px;
+      }
+    }
+  }
+  .SharePaste{
+    display: flex;
+    justify-content: center;
+    h3{
+      color: #948280;
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+    p{
+      cursor: pointer;
+      font-size: 16px;
+
+      margin-bottom: 5px;
+      &:nth-of-type(1){
+        margin-right: 20px;
+      }
+      a{
+        color: #000;
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+.walletAccount{
+  border-radius: 20px;
+  padding: 10px 10px;
+  display: flex;
+  margin-left: 5px;
+  width: 300px;
+  background-color: rgba(240, 245, 255, 1);
+  align-items: center;
+  cursor: pointer;
+  .ant-progress-inner{
+    background-color:#fff;
+  }
+  .walletAccountDiv{
+    color: #6191FF;
+    font-weight: 600;
+  }
+}
+.ant-modal-body h5{
+  font-size: 20px;
+}
+.ant-avatar.ant-avatar-icon{
+  margin-bottom: 10px;
+}
+.ant-btn-round.ant-btn-lg{
+  margin-left: 5px;
+}
+.ant-progress-line{
+  width: 100% !important;
+}
+.ant-progress{
+  display: flex !important;
+  .ant-progress-outer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .ant-progress-text{
+    line-height: inherit !important;
+    display: flex;
+    align-items: center;
+  }
+}

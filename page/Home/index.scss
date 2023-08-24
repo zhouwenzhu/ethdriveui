@@ -1,0 +1,207 @@
+.Mobile_terminal,.HeaderPage,.ant-table-cell{
+  .ant-btn-primary{
+    background-color: #6191FF !important;
+    border: 1px solid #6191FF !important;
+  }
+}
+.ant-btn-primary{
+  background-color: #6191FF !important;
+  border: 1px solid #6191FF !important;
+}
+.ant-upload{
+  button{
+    background-color: #6191FF !important;
+    color: #fff;
+    border: #6191FF;
+  }
+  .ant-btn:hover , .ant-btn:focus{
+    background-color: #506BDB 100%;
+    color: #fff;
+  }
+}
+@media (min-width: 0px) and (max-width: 660px) {
+
+    .WalletModification{
+      padding: 40px 0px 30px;
+    }
+
+    .ant-modal-body{
+      padding:24px 20px !important;
+
+    }
+    .HomePage {
+      position: relative;
+      background-color: #F7F8FA;
+      width: 100vw;
+      min-height: 100vh;
+      .container .Home .ant-table-wrapper {
+        display: none;
+      }
+      .container {
+        width: 90%;
+        align-items: center;
+        justify-content: flex-end;
+        .Home {
+          margin-bottom: 20px;
+          .Home_button{
+            button{
+              background-color: #6191FF;
+              border: 1px solid #6191FF;
+            }
+          }
+        }
+      }
+      .TabBarPage{
+        .container{
+          justify-content: space-between;
+          .Files{
+            span{
+              color: #40a9ff !important;
+            }
+          }
+        }
+      }
+      .HeaderPage {
+        width: 100%;
+        .head {
+          .container {
+            width: 100% ;
+            background-color: #fff;
+          }
+          box-shadow: 0px;
+
+        }
+      } 
+      .ant-tooltip-inner{
+        font-size: 14px;
+      }
+      .Mobile_terminal {
+        padding-bottom: 40px;
+        .container {
+          justify-content: flex-start;
+          flex-direction: column;
+          .Mobile {
+            width: 100%;
+            padding: 15px;
+            background-color: #fff;
+            margin-bottom: 40px;
+            .Mobile_file {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              p{
+                font-size: 14px;
+                span{
+                  font-size:14px;
+                  text-decoration: underline;
+                }
+              }
+              div {
+                margin-bottom: 20px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+        .Mobile_termina{
+          display: flex;
+            .iconfont {
+              font-size: 60px;
+              color: #DEDEDE;
+            }
+            p{
+              font-size: 28px;
+              color: #DEDEDE;
+            }
+            span{
+              font-size: 16px;
+              color: #DEDEDE;
+              cursor: pointer;
+            }
+          }
+      }
+    }
+  }
+
+  @media screen and (min-width: 660px) {
+.ant-table-expanded-row-fixed{
+  min-height: 65vh;
+}
+.ant-table-wrapper{
+  min-height: 65vh;
+}
+    .Mobile_terminal {
+      display: none;
+    }
+    .HomePage {
+      .HeaderPage{
+        .Top{
+          color: #40a9ff !important;
+        }
+        .head{
+          .container{
+            width: 100%;
+          }
+        }
+      }
+      background-color: #F7F8FA;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .container {
+        box-shadow: 0 0 10px 0.1px #e8e8e8;
+        min-width: 1340px;
+        height: 95%;
+        background-color: #fff;
+        border-radius: 10px;
+        justify-content: center;
+        .Home {
+          height: 96%;
+          padding: 20px 10px;
+          width: 100%;
+          .Home_button {
+            margin-bottom: 20px;
+            display: flex;
+            width: 100%;
+            flex-direction: row-reverse;
+            button{
+              background-color: #6191FF;
+              border: 0px;
+            }
+          }
+          .ant-table-thead {
+            background-color: #506BDB;
+            
+            tr {
+              border-radius: 10px;
+              th {
+                color: #fff;
+                background-color: #6191FF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width:660px) and (max-width: 1300px) {
+    .HomePage .container{
+      min-width: 100%;
+      
+    }
+  }
+  .item-fileInfo {
+    margin-top: 14px;
+    p {
+      margin: 10px 0 0;
+      font-size: 16px;
+    }
+  }
+  .reacher-hint {
+    margin: 12px 0 0;
+    color: rgba(248, 79, 72, 1);
+    font-size: 16px;
+  }

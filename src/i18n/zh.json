@@ -1,0 +1,47 @@
+{
+  "Top-up": "充值",
+  "Upload": "上传",
+  "including":"You can pay in any token including MEMO、APTOS and more, to purchase file storage space for files storage.",
+  "Home": {
+    "Document": "文件名称",
+    "File_Upload": "文件上传时间",
+    "File_Upload_Address": "文件上传地址",
+    "Storage_Period": "存储时间",
+    "Storage_Prize": "存储价格",
+    "Size_of_File": "文件大小",
+    "File_Download": "文件下载",
+    "CID":"CID",
+    "No_Data":"暂无数据",
+    "Download":"下载",
+    "Storage_Balance": "存储余额：",
+    "Select_the_File": "选择文件",
+    "Significant_Material":"重要资料:",
+    "Size_of_Upload_File": "上传文件大小:",
+    "Estimated_Cost_of_Uploading_File":"上传文件预计所需费用: ",
+    "No_data":"暂无数据",
+    "Please_top-up":"请去Top-up充值",
+    "Click_to_redirect":"点击跳转",
+    "Size_of_upload:":"上传文件大小:",
+    "Estimated_cost_of_uploading":"上传文件预估所需费用:",
+    "Insufficient_balance":"当前余额不足,请充值",
+    "Start_upload":"开始上传",
+    "Upload_Files":"上传文件",
+    "upload_successfully":"上传成功",
+    "upload_failed":"上传失败",
+    "Close":"关闭"
+  },
+  "pay":{
+    "Minimum_storage_space":"最小存储空间: 1G",
+    "Balance_to_top-up":"可充值的余额:",
+    "Storage_space":"存储空间",
+    "Estimated_cost":"预估费用(MEMO)",
+    "Invalid_amount":"金额错误",
+    "The_minimum":"最小金额应大于0.01",
+    "Insufficient_balance":"余额不足",
+    "Please_enter":"请先输入正确的存储空间，最少为1G。",
+    "Customize_your":"自定义存储空间",
+    "Estimated_Cost":"预计费用"
+
+  }
+}
+
