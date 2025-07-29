@@ -75,3 +75,4 @@ reportWebVitals(2);
 reportWebVitals(3);
 reportWebVitals(4);
 reportWebVitals(5);
+reportWebVitals(6);
