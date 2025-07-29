@@ -58,3 +58,4 @@ reportWebVitals(9);
 reportWebVitals(10);
 reportWebVitals(11);
 reportWebVitals(0);
+reportWebVitals(1);
